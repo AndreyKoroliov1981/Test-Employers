@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Employers</string>
+    <string name="textRetry">Поробовать ещё раз</string>
+    <string name="textErrorNetwork">Проблемы с сетью</string>
+    <string name="textEmployers">Работодатели</string>
+    <string name="textSearchHint">Компания, ключевые слова</string>
+    <string name="textFilters">Фильтры</string>
+    <string name="textReset">Сбросить</string>
+    <string name="textTypeEmployer">Тип работодателя</string>
+    <string name="textHaveVacancy">Наличие вакансий у работадателя</string>
+    <string name="textShow">Показать</string>
+    <string name="textNoData">Данные не получены</string>
+    <string name="textOpenVacancy">Открытых вакансий - %1$d</string>
+    <string name="textHasVacancy">Есть открытые</string>
+    <string name="textAllCompany">Все компании</string>
+</resources>

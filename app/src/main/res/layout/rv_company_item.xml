@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="23dp"
+    android:orientation="horizontal"
+    android:background="@color/teal_200"
+    android:weightSum="3"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNameCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:text="ООО Название компании"
+        />
+
+    <TextView
+        android:id="@+id/tvVacancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNameCompany"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/textOpenVacancy"
+        tools:text="Открытых вакансий 1"
+        />
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/ivLogotype"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:src="@tools:sample/avatars"
+        />
+
+
+
+
+</LinearLayout>
